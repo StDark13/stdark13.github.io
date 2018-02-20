@@ -40,6 +40,11 @@ header {
 	color: #072b6f;
 	padding: 17px 55px;
 	margin-top: 33px;
+	transition: 0.2s;
+}
+
+.header-button:hover {
+	box-shadow: none;
 }
 
 .header-button-block {
@@ -161,6 +166,12 @@ footer {
 	color: #fff;
 	font-size: 18px;
 	padding: 12px 40px;
+	transition: 0.2s;
+}
+
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 
 @media (max-width: 1200px) {
